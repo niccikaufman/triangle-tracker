@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" style="width: 100%;">
+        <div class="card-header">Triangle?
+        </div>
+          <div class="card-body">
+            <form for="triangles">
+                <label for="side1"> Side 1: </label>
+                <input type="number" id="side1">
+                <br>
+                <label for="side2"> Side 2: </label>
+                <input type="number" id="side2">
+                <br>
+                <label for="side3"> Side 3: </label>
+                <input type="number" id="side3">
+              <br>
+              <button type="submit" class= "btn-lg btn-block" id="confirm">Confirm</button>            
+            </form>
+          </div>
+          <div class="card-footer" style="width: 100%;">
+            <p>The result is a(n) <span id="result"> </span> triangle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
