@@ -8,6 +8,7 @@ $(document).ready(function(){
   // } else {
   //     alert("That is not a triangle");
   // }
-  //   event.preventDefault();
+    event.preventDefault();
+    $("#result-card").toggle();
   });
 });
