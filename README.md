@@ -21,6 +21,7 @@ _A a web page that allows the user to input the lengths of the sides of a triang
 
 
 ## Known Bugs
+Code thinks all triangles are equilateral as of 3/2021. I hate math.
 
 ## License
 
